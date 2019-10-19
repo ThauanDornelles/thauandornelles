@@ -1,0 +1,203 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(tecnologia.png) center center no-repeat;
+	background-size: 100% 100% cover;
+	background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+	width: 6px;
+}
+body::-webkit-scrollbar-thumb {
+	background: red;
+}
+header, footer, nav, section, article, aside {
+	display:block; 
+	width: auto; 
+	height: auto;
+}
+ul, li, h1, h2, h3, h4, h5, h6, span, p {
+	padding: 0; 
+	margin: 0;
+}
+a {
+	text-decoration:none; 
+	color: black;
+}
+.hide {
+	display: none;
+}
+p {
+	color: red;
+	font-size: 30px;
+}
+h1 {
+	font-size: 40px; 
+	color: red; 
+	text-align: center; 
+	margin-top: 20px;
+}
+.Cforum::-webkit-scrollbar {
+	width: 6px;
+	padding-left: 5px;
+}
+.Cforum::-webkit-scrollbar-thumb {
+	background: yellow;
+}
+.Cforum {
+	/*position: fixed;*/
+	/*height:100%;*/
+	width: 90%;
+	height: 450px;
+	overflow: auto;
+	min-height: 300px;
+	padding: 10px;
+	margin: 5% 4% 0 4%;
+	background-color: black;
+	opacity: 0.8;
+	border: 3px solid red;
+}
+.categorias {
+	width: 60%;
+	margin: auto;
+	background-color: #221F1F; /*#CCD6DD*/ /*#D5D5D5*/ 
+	height: 50px;
+	border: solid 2px red;
+	text-align: center;
+	font-size: 25px;
+	line-height:25px;
+	margin-top: 20px;
+	padding: 10px;
+	transition: 0.3s;
+	border-radius: 5px;
+}
+.categorias:hover {
+	width: 65%;
+	height: 70px;
+	line-height: 42px;
+}
+.categorias a {
+	cursor: default;
+	text-decoration: none;
+	transition: 0.3s;
+	color: red;
+}
+.categorias:hover a {
+	font-size: 28px;
+}
+.post {
+	background-color: black; 
+	align-items: left; 
+	text-align: justify;
+	margin-top: 10px;
+	color: red;
+	border: solid 1px red;
+	height: 120px; 
+	width: 100%;
+	overflow: auto; 
+}
+.post::-webkit-scrollbar {
+	width: 6px;
+	padding-left: 5px;
+}
+.post::-webkit-scrollbar-thumb {
+	background-color: red;
+}
+.post .boxtitulo {
+	width: 100%;
+	border-bottom: solid 1px red;
+}
+.post .nickmensagens {
+	padding-left: 10px;
+	padding-bottom: 2px;
+	font-size: 20px;
+	padding-right: 10px;
+}
+.post .conteudomensagens {
+	padding-left: 10px;
+	font-size: 20px;
+}
+.saboneteliquido {
+	width: 67%;
+}
+.saboneteliquido:hover {
+	width: 75%;
+}
+.fundo {
+	height: 50px;
+	margin: auto;
+	width: 280px;
+	border: solid 2px red;
+	margin-top: 5%;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.3s;
+	line-height: 25px;
+}
+.fundo:hover {
+	border: solid 3px red;
+	width: 310px;
+	height: 67px;
+	line-height: 45px;
+	background-color: #c0392b;
+}
+.fundo a {
+	text-decoration: none;
+	color: red;
+	font-size: 18px;
+	line-height: 5px;
+	transition: 0.3s;
+}
+.fundo:hover a {
+	font-size: 20px;
+	color: black;
+}
+.chat {
+	margin-top: 3px;
+	margin-bottom: -20px;
+}
+.chat .caixadetexto {
+	border: solid 3px red;
+	border-right: solid 1.5px red;
+	border-radius: 70px;
+	height: 50px;
+	color: gray;
+	font-size: 19px;
+	padding: 20px;
+	background-color: black;
+	color: red;
+	transition: 0.5s;
+}
+.chat .caixadetexto::placeholder {
+	color: red;
+	transition: 0.5s;
+}
+.chat .caixadetexto:focus {
+	border-color: green;
+	background-color: white;
+	color: #323832;
+	box-shadow: none;
+}
+.chat .caixadetexto:focus::placeholder {
+	color: #323832; 
+}
+.chat .botaoenviar {
+	border-radius: 50%;
+	height:50px; 
+	width: 50px;
+	background-color: black;
+	border: solid 2px red;
+	border-left: solid 1.5px red;
+	color: red;
+	font-size: 25px;
+	padding-left: 1px;
+	padding-top: 1.5px;
+	transition: 0.5s;
+}
+.chat .botaoenviar:hover {
+	border-color: green;
+	background-color: #08FF00;
+	color: darkgreen;
+	font-weight: 900;
+}

@@ -1,0 +1,549 @@
+/*.bd-example {
+  background-image: url('bandeira.jpg');
+  background-size:cover;
+  height:830px;
+  width:100%;
+  position: absolute;
+}
+#carouselExampleCaptions {
+	margin-top: 50px;
+	position:relative;
+    float:left;
+    margin-left:10%;
+    width: 80%;
+    height:90%;
+}
+.carousel-inner {
+  height:100%;
+}
+i {
+	color: black;
+	padding: 5px;
+	height: 10px;
+}*/
+html {
+  scroll-behavior: smooth;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/*Barra de Rolamento*/
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+/*Navbar*/
+
+.nav-link {
+  transition: 0.7s;
+} 
+
+/*Landing Page*/
+#landing-page {
+  background: url(imgsPI/landing2.png) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text {
+  transition: 1s;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.landing-text h1 {
+  font-size: 400%;
+  font-weight: 700;
+}
+.landing-text h1 {
+  animation: separacaodeletras 1.4s ease forwards;
+}
+.landing-text a {
+  position: absolute;
+  padding-top: 130px;
+  margin-left: -35px;
+  cursor: default;
+}
+.landing-button {
+  font-size: 40px;
+  font-weight: 300;
+  transition: 0.2s;
+  text-shadow: 2px 2px 7px white;
+}
+.landing-text a:hover .landing-button {
+  color: red;
+  font-size: 50px;
+  margin-left: -4.9px;
+  text-shadow: none;
+}
+
+/*Separação*/
+#separacao {
+  /*background-size: cover;*/  
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 30%;
+  background-color: #FF3131;
+  /*background-image: url(imgsPI/officev2.jpg) no-repeat center center fixed;*/
+  opacity: 0.9;
+}
+.separacao-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.separacao-text h1 {
+   font-size: 60px;
+   font-weight: 700;
+   color: #363739;
+}
+
+/*Timeline*/
+#timeline {
+  background-color: red;
+}
+
+/*Objetivos*/
+#objetivos {
+  background-color: /*9EA29E*/#E1E1E1;
+  height: 6 00px;
+}
+#objetivos h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#objetivos .caceta i {
+  font-size: 68px;
+  transition: 0.2s;
+  padding-bottom: 20%;
+}
+#objetivos .caceta i:hover {
+  font-size: 73px;
+}
+#objetivos .fa-lightbulb {
+  font-size: 320px;
+  transform: rotate(24deg);
+  transition: 0.3s;
+}
+#objetivos .fa-lightbulb:hover {
+  color: yellow;
+}
+#objetivos .boxobj1, #objetivos .boxobj2, #objetivos .boxobj3, #objetivos .boxobj4 {
+  padding: 10px;
+  text-align: center;
+}
+#objetivos .boxobj1 {
+  padding-right: 20%;
+  padding-bottom: 10%;
+}
+#objetivos .boxobj2 {
+  padding-bottom: 10%;
+}
+#objetivos .boxobj3 {
+  padding-right: 20%;
+}
+#objetivos h4 {
+  font-size: 38px;
+}
+
+/*Propaganda Fórum*/
+#propaganda {
+  height: 250px;
+  background: url(imgsPI/quarentaporcento.png) no-repeat top center fixed;
+  background-size: cover;
+  padding: 0;
+  /* Adicionar
+  box-shadow: ;*/
+}
+/* #propaganda .overlay {
+  background-color: black;
+  opacity: 0.3;
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  z-index: 100;
+} */
+
+#propaganda h1 {
+  padding-top: 3%;
+  color: /*#ca1414*/#cccc00;
+   text-shadow: 4px 4px 11px black;
+}
+#propaganda p {
+  font-size: 25px;
+  color: /*#ca1414*/#cccc00;
+  font-weight: 600;
+   text-shadow: 2px 2px 7px black;
+}
+#propaganda .btn {
+  background-color: black;
+  height: 60px;
+  width: 150px;
+  opacity: 0.6;
+  border-radius: 30px;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+}
+#propaganda .btn:hover {
+  opacity: 0.9;
+  color: lightblue;
+}
+
+/*Tecnologias Utilizadas*/
+#tecnologias {
+  border-top: solid 1px transparent;
+  background-color: #E1E1E1;
+}
+#tecnologias h1 {
+  margin-top: 30px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+#tecnologias a {
+  text-decoration: none;
+  cursor: default;
+}
+#tecnologias h4 {
+  font-size: 29px;
+  padding-top: 2%;
+  padding-bottom: 20%;
+  color: black;
+}
+#tecnologias img {
+  transition: 0.3s;
+} 
+#tecnologias img:hover {
+  width: 170px;
+  height: 170px;
+}
+#tecnologias h4.php {
+  padding-top: 19%;
+}
+#tecnologias img.php {
+  transition: 0.15s;
+}
+#tecnologias img.php:hover {
+  width: 210px;
+  height: 140px;
+}
+
+/*Conheça o Time*/
+
+.conteudoAboutUs { 
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 4%;
+  text-shadow: 1px 1px 2px white;
+}
+.tituloAboutUs {
+  margin-top: 3%;
+  font-size: 45px;
+  text-shadow: 1px 1px 2px white;
+}
+.card {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 40%;
+}
+#aboutUs {
+  border-top: solid 1px transparent;
+  background: url(imgsPI/blackboard.jpg) no-repeat top center fixed;
+ /* background-color: #E1E1E1;*/
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.cards i {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size: 26px;
+}
+.cards a {
+  color: black;
+}
+.cards a .iconcard1, .iconcard2, .iconcard3, .iconcard4 {
+  transition: 0.2s;
+}
+.cards a .iconcard1:hover {
+  color: green;
+  font-size: 28px;
+}
+.cards a .iconcard2:hover {
+  color: red;
+  font-size: 28px;
+}
+.cards a .iconcard3:hover {
+  color: #081BBD;
+  font-size: 28px;
+}
+.cards a .iconcard4:hover {
+  color: rgb(201, 99, 5);
+  font-size: 28px;
+}
+.card-title {
+  position: relative;
+  font-size: 20px;
+  padding-top: -30px;
+}
+.card-text {
+  font-size: 16px;
+  text-align: justify;
+}
+.sabao {
+  font-size: 13px;
+}
+.sabao2 {
+  text-align: center;
+}
+.sabaov2 {
+  font-size: 15px;
+}
+.textozada {
+  color: gray;
+}
+.linkzada {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+.linkzada:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* animação */
+
+@keyframes separacaodeletras {
+  0% {
+    font-size: 45px;
+    letter-spacing: 8px;
+    color: transparent;
+    text-shadow: 1px 1px 7px transparent;
+  }
+
+  25% {
+    color: default;
+    text-shadow: 1px 1px 7px transparent;
+  }
+
+  50% {
+    font-size: 55px;
+    letter-spacing: 23px;
+    text-shadow: 1px 1px 7px red;
+  }
+
+  75% {
+    text-shadow: 1px 1px 7px white;
+  }
+
+  100% {
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 7px white;
+  }
+}
+
+/* responsividade */
+
+@media (min-width: 350px) {
+  #objetivos .caceta i {
+  font-size: 40px;
+  transition: 0.2s;
+  padding-bottom: 10%;
+  }
+  #objetivos .caceta i:hover {
+    font-size: 45px;
+  }
+  #objetivos .boxobj1, #objetivos .boxobj2, #objetivos .boxobj3, #objetivos .boxobj4 {
+    padding: 10px;
+    text-align: center;
+  }
+  #objetivos .boxobj1 {
+    padding-right: 20%;
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj2 {
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj3 {
+    padding-right: 20%;
+  }
+  #objetivos h4 {
+    font-size: 17px;
+  }
+  #objetivos .fa-lightbulp {
+    font-size: 100px;
+  }
+}
+@media (max-width: 600px) {
+  #objetivos .fa-lightbulb {
+    margin-left: 20%; 
+  } 
+}
+@media (min-width: 601px) {
+  #objetivos .fa-lightbulb {
+    margin-left: 30%; 
+  } 
+}
+@media (min-width: 765px) {
+  #objetivos .boxobj1, #objetivos .boxobj2, #objetivos .boxobj3, #objetivos .boxobj4, #objetivos .fa-lightbulb {
+  padding: 10px;
+  }
+  #objetivos .boxobj1 {
+  padding-right: 5%;
+  padding-bottom: 10%;
+  }
+  #objetivos .boxobj2 {
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj3 {
+    padding-right: 5%;
+  }
+  #objetivos .fa-lightbulb {
+    margin-top: 130px;
+    margin-left: -50px;
+  }
+}
+@media (min-width: 817px) {
+  #objetivos .fa-lightbulb {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  #objetivos .caceta i {
+    font-size: 65px;
+  }
+  #objetivos h4 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1000px) {
+   #objetivos .caceta i {
+  font-size: 80px;
+  transition: 0.2s;
+  padding-bottom: 20%;
+  }
+  #objetivos .caceta i:hover {
+    font-size: 85px;
+  }
+  #objetivos .boxobj1, #objetivos .boxobj2, #objetivos .boxobj3, #objetivos .boxobj4 {
+    padding: 10px;
+    text-align: center;
+  }
+  #objetivos .boxobj1 {
+    padding-right: 20%;
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj2 {
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj3 {
+    padding-right: 20%;
+  }
+  #objetivos h4 {
+    font-size: 23px;
+  }
+}
+@media (min-width: 1100px) {
+  #objetivos .caceta i {
+  font-size: 90px;
+  transition: 0.2s;
+  padding-bottom: 20%;
+  }
+  #objetivos .caceta i:hover {
+    font-size: 95px;
+  }
+  #objetivos .boxobj1, #objetivos .boxobj2, #objetivos .boxobj3, #objetivos .boxobj4 {
+    padding: 10px;
+    text-align: center;
+  }
+  #objetivos .boxobj1 {
+    padding-right: 20%;
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj2 {
+    padding-bottom: 10%;
+  }
+  #objetivos .boxobj3 {
+    padding-right: 20%;
+  }
+  #objetivos h4 {
+    font-size: 30px;
+  }
+  #objetivos .fa-lightbulb {
+    text-align: left;
+  }
+}
+
+/*Pop-ups*/
+
+#tecnologias .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+ }
+#tecnologias .modal.active {
+  transform: translate(-50%, -50%) scale(1);
+ }
+#tecnologias .modal h1 {
+  opacity: 1;
+  font-size: 28px;
+  color: purple;
+  font-weight: 700;
+}
+#tecnologias .modal .btnmodal {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(-30px, -20px);
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  border: solid 2px red;
+  border-radius: 50%;
+  background-color: purple;
+  color: white;
+  padding: 0;
+}
+#tecnologias #overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+#tecnologias #overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+#tecnologias .tirar {
+  border: none;
+  background: none;
+}
+@media (min-width"300px") {
+ 
+}
